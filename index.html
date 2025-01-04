@@ -9,24 +9,29 @@
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
             padding: 20px;
+            text-align: center; /* 모든 텍스트 중앙 정렬 */
         }
         h1 {
-            text-align: center;
             color: #333;
+            margin-bottom: 70px; /* 제목과 본문 사이에 여백 추가 */
         }
         .hint {
             font-size: 1.5em; /* 크기를 힌트 1과 동일하게 맞춤 */
             font-weight: bold; /* 굵게 설정 */
             color: #555;
+            margin-top: 20px; /* 힌트와 본문 사이 여백 추가 */
         }
         .hidden-message {
             color: #fff;
             background-color: #000;
             padding: 10px;
-            margin-top: 20px;
+            margin-top: 50px;
             border-radius: 5px;
             text-align: center;
             display: none; /* 이 부분이 '숨겨진 메시지' */
+        }
+        footer {
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -35,7 +40,7 @@
     <p class="hint">여기에는 숨겨진 메시지가 있습니다. 해당 코드들을 살펴보세요.</p>
     
     <!-- 일반 텍스트 -->
-    <p>힌트 : <strong>F12</strong></p>
+    <p>힌트: <strong>브라우저 개발자 도구(F12)를 열고 숨겨진 메시지를 찾으세요!</strong></p>
 
     <!-- 숨겨진 메시지 -->
     <div class="hidden-message">비밀 메시지: 1234</div>
