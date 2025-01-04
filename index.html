@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>탈출 게임 - HTML 미션</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .hint {
+            font-size: 1.5em; /* 크기를 힌트 1과 동일하게 맞춤 */
+            font-weight: bold; /* 굵게 설정 */
+            color: #555;
+        }
+        .hidden-message {
+            color: #fff;
+            background-color: #000;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-align: center;
+            display: none; /* 이 부분이 '숨겨진 메시지' */
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML 코드 탈출 게임</h1>
+    <p class="hint">여기에는 숨겨진 메시지가 있습니다. 해당 코드들을 살펴보세요.</p>
+    
+    <!-- 일반 텍스트 -->
+    <p>힌트 : <strong>F12</strong></p>
+
+    <!-- 숨겨진 메시지 -->
+    <div class="hidden-message">비밀 메시지: 1234</div>
+
+    <!-- 다른 단서 -->
+    <p class="hint">메시지를 찾으셨나요? 그 메시지가 탈출의 열쇠입니다!</p>
+
+    <footer>
+        <p>이 페이지에서 모든 단서를 찾아 탈출하세요!</p>
+    </footer>
+</body>
+</html>
